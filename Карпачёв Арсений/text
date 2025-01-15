@@ -1,0 +1,49 @@
+#    class Pipe:
+#        def __init__(self, img, img2, img3, img4, img5, img6, img7, x, y):
+#            self.img = img
+#            self.img2 = img2
+#            self.img3 = img3
+#            self.img4 = img4
+#            self.img5 = img5
+#            self.img6 = img6
+#            self.img7 = img7
+#            self.x = x
+##           self.y = y
+#       def render(self):
+#           self.img = ni
+#            self.img2 = ni2
+#           self.img3 = ni3
+#            self.img4 = ni4
+#            self.img5 = ni5
+#            self.img6 = ni6
+#            self.img7 = ni7
+#            self.x = random.randint(0, 360)
+#            self.y = random.randint(0, 640)
+#        def update(self):
+#            self.img = ni
+#            self.img2 = ni2
+#            self.img3 = ni3
+#            self.img4 = ni4
+#            self.img5 = ni5
+#            self.img6 = ni6
+#            self.img7 = ni7
+#            self.x = random.randint(0, 360)
+#            self.y = random.randint(0, 640)
+#    
+#    pipe = Pipe(ni, ni4, ni5, ni6, ni7, xx, y1, x, y)
+#
+#    while True:
+#        pipe.render()
+
+
+
+    ni = win.blit(new_image, (0, y1))
+    ni2 = win.blit(new_image_2, (xx, yy))
+    ni3 = win.blit(new_image_3, (xx, 0))
+    ni4 = win.blit(new_image_4, (xxx, 0))
+    ni5 = win.blit(new_image_5, (xxx, yy))
+    ni6 = win.blit(new_image_6, (xxxx, yy))
+    ni7 = win.blit(new_image_7, (xxxx, 0))
+
+            if self.x < -250:
+                self.x = 360
